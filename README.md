@@ -1,5 +1,77 @@
+<<<<<<< HEAD
 # lingua_app
+# flutter-arm64-lingua
 
+Ein Flutter-Projekt, optimiert für ARM64-Architekturen unter Linux.
+
+## 🧠 Ziel
+
+Dieses Projekt demonstriert, wie man Flutter-Anwendungen auf ARM64-Systemen (z. B. Raspberry Pi, PineBook Pro oder native ARM64-Tablets) erfolgreich baut und ausführt — inklusive Workarounds für fehlende `gen_snapshot`-Binaries.
+
+## ⚙️ Setup
+
+### Voraussetzungen
+
+- Flutter SDK (manuell installiert)
+- ARM64 Linux (z. B. Ubuntu 22.04 auf ARM64)
+- Git, curl, unzip, clang, cmake, ninja
+
+### Installation
+
+```bash
+git clone https://github.com/lieberschwager/flutter-arm64-lingua.git
+cd flutter-arm64-lingua
+flutter pub get
+```
+
+## 🛠️ ARM64 Workaround für `gen_snapshot`
+
+Da Flutter keine offiziellen ARM64-Binaries für `gen_snapshot` bereitstellt, wurde folgender Workaround implementiert:
+
+- Manuelles Kompilieren von `gen_snapshot` aus dem Flutter-Engine-Quellcode
+- Ersetzen der Standard-Binary im Flutter SDK:
+
+```bash
+cp /pfad/zur/kompilierten/gen_snapshot $FLUTTER_ROOT/bin/cache/artifacts/engine/linux-arm64-release/gen_snapshot
+```
+
+## 🧪 Debug & Build
+
+### Debug-Modus
+
+```bash
+flutter run
+```
+
+### Release-Build
+
+```bash
+flutter build linux --release
+```
+
+## 📦 APK-Erstellung (optional)
+
+Falls du das Projekt für Android ARM64 kompilieren willst:
+
+```bash
+flutter build apk --target-platform android-arm64
+```
+
+## 🗺️ Roadmap
+
+- [ ] Automatisiertes Setup-Skript für ARM64
+- [ ] Integration von Flutter Desktop auf ARM64
+- [ ] Cross-Compile für x64 aus ARM64-Umgebung
+- [ ] Dokumentation auf Deutsch & Englisch
+
+## 🤝 Mitwirken
+
+Pull Requests sind willkommen! Dieses Projekt soll anderen helfen, Flutter auf ARM64-Systemen produktiv einzusetzen.
+
+---
+
+Guido Lieberschwager  
+Grevenbroich, Deutschland
 A new Flutter project.
 
 ## Getting Started
@@ -14,3 +86,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# flutter-arm64-lingua
+>>>>>>> 09722c5360e15de2079eb7d1443f28dea098b4cf
