@@ -1,5 +1,5 @@
 # flutter-arm64-lingua
-
+![LinguaForge Mockup](assets/mockup_linguaforge.png)
 Ein Flutter-Projekt, optimiert für ARM64-Architekturen unter Linux.
 
 ## 🧠 Ziel
