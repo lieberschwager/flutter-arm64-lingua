@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "de": "Hallo",
+    "en": "Hello",
+    "vi": "Xin chào",
+    "fr": "Bonjour",
+    "es": "Hola"
+  },
+  {
+    "id": 2,
+    "de": "Danke",
+    "en": "Thank you",
+    "vi": "Cảm ơn",
+    "fr": "Merci",
+    "es": "Gracias"
+  },
+  {
+    "id": 3,
+    "de": "Wie geht's?",
+    "en": "How are you?",
+    "vi": "Bạn khỏe không?",
+    "fr": "Comment ça va?",
+    "es": "¿Cómo estás?"
+  }
+]
