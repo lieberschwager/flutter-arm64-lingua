@@ -1,7 +1,15 @@
-# flutter-arm64-lingua
-![LinguaForge Mockup](assets/mockup_linguaforge.png)
-Ein Flutter-Projekt, optimiert für ARM64-Architekturen unter Linux.
+<p align="center">
+  <img src="assets/linguaforge_logo.jpeg" alt="LinguaForge Logo" width="200"/>
+</p>
 
+<p align="center">
+  <strong>LinguaForge</strong> ist eine modulare Plattform zur Entwicklung von Sprachkernprogrammen.<br>
+  Ziel ist es, eine robuste, ARM64-optimierte Umgebung für die Verarbeitung, Darstellung und Auswahl von Sprachen bereitzustellen – sowohl für mobile als auch für Desktop-Anwendungen.
+</p>
+
+# flutter-arm64-lingua
+
+Ein Flutter-Projekt, optimiert für ARM64-Architekturen unter Linux.
 ## 🧠 Ziel
 
 Dieses Projekt demonstriert, wie man Flutter-Anwendungen auf ARM64-Systemen (z. B. Raspberry Pi, PineBook Pro oder native ARM64-Tablets) erfolgreich baut und ausführt — inklusive Workarounds für fehlende `gen_snapshot`-Binaries.
